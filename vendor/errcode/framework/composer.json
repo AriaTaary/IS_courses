@@ -1,0 +1,22 @@
+{
+    "name": "errcode/framework",
+    "description": "The ErrCode Framework",
+    "type": "framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Sklyar",
+            "email": "ozpavel@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-mysqli": "*",
+        "ext-pdo": "*",
+      "ext-curl": "*",
+      "ext-openssl": "*"
+    },
+    "autoload": {
+        "classmap": ["/"]
+    }
+}
